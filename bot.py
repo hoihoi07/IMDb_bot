@@ -11,7 +11,7 @@ import json
 import imdb
 import os
 PORT = int(os.environ.get('PORT', 5000))
-api_key= #Enter your Telegram bot token
+api_key= 5281076819:AAHNujIfveNa-We5IpTTBdOeMrKKnr5xigw
 ia = imdb.IMDb() 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -34,7 +34,7 @@ def reply(update, context):
       
     id='tt'+search[0].movieID
     
-    url= 'http://www.omdbapi.com/?i='+id+'&apikey='+5281076819:AAHNujIfveNa-We5IpTTBdOeMrKKnr5xigw
+    url= 'http://www.omdbapi.com/?i='+id+'&apikey='+api_key
     
     x=urllib.request.urlopen(url)
     
