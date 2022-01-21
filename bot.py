@@ -34,7 +34,7 @@ def reply(update, context):
       
     id='tt'+search[0].movieID
     
-    url= 'http://www.omdbapi.com/?i='+id+'&apikey='+api_key
+    url= 'http://www.omdbapi.com/?i='+id+'&apikey='+5281076819:AAHNujIfveNa-We5IpTTBdOeMrKKnr5xigw
     
     x=urllib.request.urlopen(url)
     
